@@ -1,6 +1,4 @@
 hoge
-hoge
-hoge
-hoge
-hoge
+
+Become System Engineer
 hoge
