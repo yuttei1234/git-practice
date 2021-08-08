@@ -40,21 +40,21 @@ main {
   height: 150px;
   background-image: url(img/flow01.png);
   background-size: cover;
-  background-position: center;
+  background-position: bottom;
 }
 
 .step-img2 {
   height: 150px;
   background-image: url(img/flow02.png);
   background-size: cover;
-  background-position: center;
+  background-position: bottom;
 }
 
 .step-img3 {
   height: 150px;
   background-image: url(img/flow03.png);
   background-size: cover;
-  background-position: center;
+  background-position: bottom;
 }
 
 .title {
@@ -69,60 +69,20 @@ footer {
 @media screen and (max-width: 768px) {
   main {
     width: 100%;
-    margin: 50px auto;
-    display: inline-block;
+    margin: 50px 0;
+    display: block;
   }
 
   .step-box {
-    background-color: #eee;
-    width: 90vw;
-    margin: 0 20px 20px 20px;
-    position: relative;
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .step-box:nth-child(2) {
+    margin: 20px auto;
   }
 
   .step-box:last-child {
-    margin-bottom: 0;
-  }
-
-  .step-img1 {
-    height: 150px;
-    margin: 10px;
-    background-image: url(img/flow01.png);
-    background-position: bottom;
-    background-size: cover;
-  }
-
-  .step-img2 {
-    height: 150px;
-    margin: 10px;
-    background-image: url(img/flow02.png);
-    background-position: bottom;
-    background-size: cover;
-  }
-
-  .step-img3 {
-    height: 150px;
-    margin: 10px;
-    background-image: url(img/flow03.png);
-    background-position: bottom;
-    background-size: cover;
-  }
-
-  .step-num {
-    background-color: #ff9a4b;
-    color: #fff;
-    position: absolute;
-    padding: 3px;
-    top: 0;
-    left: 0;
-  }
-
-  .title {
-    margin: 15px 0 5px;
-  }
-
-  footer {
-    height: 50px;
-    background-color: #aaa;
+    margin: 0 auto;
   }
 }
